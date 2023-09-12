@@ -11,6 +11,7 @@ public class Test {
           try {
                Check(code);
                System.out.println("Ene code zuv baina");
+               System.out.println();
           } catch (NumberFormatException e) {
                System.out.println(e.getMessage());
           } catch (Ex e) {
